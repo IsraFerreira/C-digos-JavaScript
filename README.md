@@ -30,3 +30,19 @@ Html - organiza textos e marcações, prioriza o conteúdo
 
 Quem usa Javascript? 
 <br>Google / Youtube / Linkedin / Netflix / Facebook
+
+## A Evolução do Javascript
+
+ECMAscript é a linguagem JavaScript padronizada
+
+NodeJS roda JavaScript fora dos navegadores
+
+Ferramentas que surgiram com a evolução do JS: 
+<br>JQuery (mozilla)
+<br>Angular
+<br>React (facebook)
+<br>Vue
+<br>Electron (github)
+<br>Ionic
+<br>Cordova (apache)
+
