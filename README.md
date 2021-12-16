@@ -46,3 +46,15 @@ Ferramentas que surgiram com a evolução do JS:
 <br>Ionic
 <br>Cordova (apache)
 
+## Aula 04
+Mensagem do browser
+window.alert('Mensagem')
+alert('Mensagem! ')
+
+Pede uma confirmação
+window.confirm('Está gostando de JS?')
+
+Abre um campo para digitação
+window.prompt('Qual é o seu nome?')
+
+
