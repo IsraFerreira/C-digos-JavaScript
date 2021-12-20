@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+}
+
+main{
+    background-color: rgb(59, 49, 41);
+    width: 560px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 3px black;  
+    color: aqua;
+}
+
+img.macaco{
+    float:right;
+    width: 150px;
+    height: 150px;
+
+}
+
+img.arvore{
+    float:center;
+    src:"imagens/arvore.png"
+}
