@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body{
@@ -17,14 +17,22 @@ main{
     color: aqua;
 }
 
-img.macaco{
+
+img.pri{
     float:right;
     width: 150px;
     height: 150px;
-
 }
 
-img.arvore{
-    float:center;
-    src:"imagens/arvore.png"
+img.cipo{
+    float:right;
+    width: 150px;
+    height: 150px;
 }
+
+#btnChutar{
+    padding: 10px;
+}
+
+
+
