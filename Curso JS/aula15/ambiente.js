@@ -22,7 +22,7 @@ for (let pos in num){
 
 let posicao = num.indexOf(9)
 if (posicao == -1){
-    console.log('Ovalor não foi encontrado!')
+    console.log('O valor não foi encontrado!')
 }
 else {
     console.log(`O valor está na posição ${posicao}`)
