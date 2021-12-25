@@ -4,6 +4,7 @@ function adicionar(){
     res.innerHTML = ''
     let valida = document.getElementById('numero')
     var num = Number(document.getElementById('numero').value)
+    var limpanum = document.getElementById('numero')
     var tabela = document.getElementById('tabela')
 
     let posicao = vetor.indexOf(num)
@@ -19,11 +20,18 @@ function adicionar(){
     item.value = `tabuada${num}`
     tabela.appendChild(item)
     }
-    
+
+    limpanum.value = ''
+    limpanum.focus()
+
 }
 
 
 function finalizar(){
+    if (vetor.length == 0){
+        window.alert('Adicione valores antes de finalizar')
+    }
+    else {
     let soma = 0
     let maior = 0
     let menor = vetor[0]
@@ -43,5 +51,5 @@ function finalizar(){
     res.innerHTML += `<br><br>Somando todos os valores, temos ${soma}`
     res.innerHTML += `<br><br>A média dos valores digitados é ${media}`
 
-
+    }
 }
